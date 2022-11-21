@@ -1,3 +1,9 @@
 collections_config:
   pages:
-  posts:
+    _inputs:
+      image_path:
+        type: string
+        comment: Helpful message here
+        options:
+          width: 90
+          height: 120
