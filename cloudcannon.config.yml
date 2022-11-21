@@ -1,0 +1,13 @@
+collections_config:
+  pages:
+    _inputs:
+      image_path:
+        type: image
+        comment: Helpful message here
+        options:
+          width: 90
+          height: 120
+    _select_data:
+      colors:
+        - Red
+        - Blue
