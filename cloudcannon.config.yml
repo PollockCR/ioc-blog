@@ -2,7 +2,7 @@ collections_config:
   pages:
     _inputs:
       image_path:
-        type: string
+        type: image
         comment: Helpful message here
         options:
           width: 90
