@@ -1,5 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+  
+  gem 'jekyll', '~>4.3.1'
+  gem 'webrick'
 
-gem "jekyll", "~> 4.1"
-
-gem "webrick"
+  group :jekyll_plugins do
+    gem 'jekyll-postcss'
+  end

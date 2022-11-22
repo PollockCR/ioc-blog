@@ -1,3 +1,12 @@
-collection:
-  post:
-    output: true
+
+sass:
+  dir: _sass
+  style: compressed  
+
+css_dir: "/style"
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
