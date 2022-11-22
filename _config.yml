@@ -7,6 +7,7 @@ css_dir: "/style"
 
 plugins:
   - jekyll-postcss
+  - jekyll-purgecss
 
 postcss:
   cache: false
