@@ -4,4 +4,4 @@ _site/
 .jekyll-metadata
 node_modules
 assets/css/style.css
-.env*
+.DS_Store

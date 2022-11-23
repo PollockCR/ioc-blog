@@ -2,22 +2,12 @@
   "name": "ioc-jekyll-tailwind",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "jekyll:dev": "bundle exec jekyll serve",
-    "jekyll:build": "JEKYLL_ENV=production bundle exec jekyll build",
-    "css:dev": "postcss style.css --output assets/css/style.css --watch",
-    "css:build": "NODE_ENV=production postcss style.css --output assets/css/style.css",
-    "dev": "concurrently \"npm run jekyll:dev\" \"npm run css:dev\"",
-    "build": "npm run css:build && npm run jekyll:build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PollockCR/ioc-jekyll-tailwind.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Catherine Pollock",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PollockCR/ioc-jekyll-tailwind/issues"
