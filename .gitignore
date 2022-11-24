@@ -3,5 +3,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 node_modules
-assets/css/style.css
+dist/main.css
 .DS_Store
