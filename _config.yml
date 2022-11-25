@@ -1,4 +1,4 @@
 collections:
   posts:
     output: true
-    permalink: /blog/:name
+    permalink: /blog/:slug
